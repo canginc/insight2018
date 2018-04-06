@@ -1,7 +1,8 @@
 Although the program passed several test suites, I Apologize for the following performance issue and the lack of diverse test cases because I was coordinating unexpected emergency repair projects of water-heater-tank at home.
 
-(1) Format of all File contents are assumed to be the same as stated in the project specification. Deviation from specification would give unintended results. 
-The first header line of log.csv MUST contain IP, date, and time, although not necessarily in that order.  The fields of All subsequent lines of log.csv must match the order of the corresponding header fields listed in the first line of log.csv.
+(1) Format of all file data contents Must be the same as stated in the project specification. Deviation from specification would give unintended results. 
+The first header line of log.csv MUST contain IP, date, and time, although not necessarily in that order.  
+The fields of All subsequent lines of log.csv must match the order of the corresponding header fields listed in the first line of log.csv.
 If the header states "date, time, IP", then all subsequent lines should list items in the same order "date, time, IP".
 
 Input arguments: The run.sh file contains these 3 filenames, which are passed as arguments to the following java program:
