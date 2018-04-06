@@ -42,7 +42,7 @@ public class Frame {
     /**
      * the 6 indices correspond to the COMMA-parsed input line of log.csv LOG file 
      */
-    static private int index_ip , index_date, index_time, index_cik, index_acc, index_ext ;  //INPUT  indices of header in lg_file
+    static private int index_ip=0, index_date=1, index_time=2, index_cik, index_acc, index_ext ;  //INPUT  indices of header in lg_file
 
     /**
      * Delimiter used to parse input log.csv file 
