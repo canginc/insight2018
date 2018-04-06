@@ -1,4 +1,4 @@
-dAlthough the program passed several test suites, I Apologize for the following performance issue and the lack of diverse test cases because I was coordinating unexpected emergency repair projects of water-heater-tank at home.
+Although the program passed several test suites, I Apologize for the following performance issue and the lack of diverse test cases because I was coordinating unexpected emergency repair projects of water-heater-tank at home.
 
 (1) Format of all File contents are assumed to be the same as stated in the project specification. Deviation from specification would give unintended results. 
 The first header line of log.csv MUST contain IP, date, and time, although not necessarily in that order. 
